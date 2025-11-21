@@ -2,7 +2,6 @@ const express = require('express');
 const { PrismaClient } = require('@prisma/client');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { error } = require('three');
 const app = express();
 const port = process.env.PORT || 3000;
 
